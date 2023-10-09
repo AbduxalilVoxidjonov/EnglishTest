@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="10dp"
+    android:layout_height="40dp">
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="English"
+            android:textColor="@color/black"
+            android:id="@+id/test_name_english"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_height="match_parent"/>
+        <View
+            android:layout_gravity="center_vertical"
+            android:background="@color/black"
+            android:layout_width="20dp"
+            android:layout_height="1dp"/>
+        <TextView
+            android:text="Uzbek"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:id="@+id/test_name_uzbek"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
